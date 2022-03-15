@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker-ek",
+  "version": "1.0.0",
+  "description": "application used to view and manage departments/employees",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliottPKim/Employee-Tracker-EK.git"
+  },
+  "author": "ElliottPKim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElliottPKim/Employee-Tracker-EK/issues"
+  },
+  "homepage": "https://github.com/ElliottPKim/Employee-Tracker-EK#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.1",
+    "mysql2": "^2.3.3"
+  }
+}
